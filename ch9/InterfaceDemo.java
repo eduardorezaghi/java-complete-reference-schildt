@@ -1,5 +1,3 @@
-package ch9;
-
 @FunctionalInterface
 interface SayHello {
     void sayHello();

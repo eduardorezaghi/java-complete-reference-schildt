@@ -1,5 +1,3 @@
-package ch9;
-
 interface Callback {
     default void call(int param) {
         System.out.println("CallbackInterface.call(" + param + ")");
